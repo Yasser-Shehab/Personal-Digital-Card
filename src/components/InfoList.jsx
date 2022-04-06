@@ -11,11 +11,6 @@ function InfoList() {
             efficiently.
           </li>
           <li>
-            Front-end Tech stack: HTML5 & CSS3 , Reactjs, Redux , Angular , Tailwind CSS , SCSS ,
-            jQuery.
-          </li>
-          <li>Back-end knowledge: Nodejs, Express.js , MongoDB , Mongoose.</li>
-          <li>
             Experts in Responsive Web Design, creating functional UI systems & bringing design
             concepts to life.
           </li>

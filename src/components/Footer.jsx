@@ -6,7 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="card-footer">
-      <a href="https://github.com/Yasser-Shehab" target="_blank">
+      <a href="https://twitter.com/AquaApple1" target="_blank">
         <div className="footer__icon">
           <FaTwitterSquare />
         </div>

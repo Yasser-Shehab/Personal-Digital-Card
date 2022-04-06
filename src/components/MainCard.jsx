@@ -3,6 +3,8 @@ import CardBtn from "./CardBtn";
 import Footer from "./Footer";
 import Info from "./Info";
 import InfoList from "./InfoList";
+import { FaEnvelope } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function MainCard() {
   return (
@@ -16,18 +18,22 @@ function MainCard() {
       </header>
       <div className="card-btns">
         <a href="mailto: yassershehab9@gmail.com">
-          <CardBtn name="Email" icon="envelop" />
+          <CardBtn name="Email">
+            <FaLinkedin />
+          </CardBtn>
         </a>
         <a href="https://www.linkedin.com/in/yasser-shehab-494638182/" target="_blank">
-          <CardBtn name="LinkedIn" icon="linkedIn" style="blue" />
+          <CardBtn name="LinkedIn" style="blue">
+            <FaEnvelope />
+          </CardBtn>
         </a>
       </div>
       <section className="card-info">
         <InfoList />
-        <Info
-          title="Interests"
-          content="Passionate about programming & designing and overcoming new Challenges, also Music , Reading , video games, traveling"
-        />
+        <Info title="Tech Stack">
+          <p>Front-End : HTML5 & CSS3 , Reactjs, Redux , Angular , Tailwind CSS , SCSS , jQuery</p>
+          <p>Back-End : Nodejs, Express.js , MongoDB , Mongoose</p>
+        </Info>
       </section>
       <Footer />
     </div>

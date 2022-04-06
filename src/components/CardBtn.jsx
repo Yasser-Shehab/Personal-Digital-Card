@@ -1,12 +1,11 @@
-import { FaEnvelope } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import React from "react";
 
-function CardBtn(props) {
+function CardBtn({ children, style, name }) {
   return (
     //"btn-container btn--white"
-    <div className={props.style == "blue" ? "btn-container btn--blue" : "btn-container btn--white"}>
-      {props.icon.includes("envelop") ? <FaEnvelope /> : <FaLinkedin />}
-      <span>{props.name}</span>
+    <div className={style == "blue" ? "btn-container btn--blue" : "btn-container btn--white"}>
+      {children}
+      <span>{name}</span>
     </div>
   );
 }
