@@ -14,7 +14,7 @@ function MainCard() {
       </div>
       <header className="card-header">
         <h1>Yasser Shehab</h1>
-        <h2> Front-End Engineer</h2>
+        <h2> Front-End Developer</h2>
       </header>
       <div className="card-btns">
         <a href="mailto: yassershehab9@gmail.com">
