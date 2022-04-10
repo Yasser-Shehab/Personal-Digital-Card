@@ -31,7 +31,10 @@ function MainCard() {
       <section className="card-info">
         <InfoList />
         <Info title="Tech Stack">
-          <p>Front-End : HTML5 & CSS3 , Reactjs, Redux , Angular , Tailwind CSS , SCSS , jQuery</p>
+          <p>
+            Front-End : HTML5 & CSS3 , Javascript , Reactjs, Redux , Angular , Tailwind CSS , SCSS ,
+            jQuery
+          </p>
           <p>Back-End : Nodejs, Express.js , MongoDB , Mongoose</p>
         </Info>
       </section>
